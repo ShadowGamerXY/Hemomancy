@@ -8,4 +8,6 @@ import net.minecraftforge.fml.common.Mod;
 @Mod(modid = "hemomancy", name = "Hemomancy",version = "0.2")
 public class Hemomancy
 {
+    @Mod.Instance("hemomancy")
+    public static Hemomancy instance;
 }
