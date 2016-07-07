@@ -49,7 +49,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 
-vversion = "${minecraft_version}-${mod_version}.${System.getenv("BUILD_NUMBER") ?: 0}"
+version = "${minecraft_version}-${mod_version}.${System.getenv("BUILD_NUMBER") ?: 0}"
 group= mod_group
 archivesBaseName = mod_artifact_basename
 
